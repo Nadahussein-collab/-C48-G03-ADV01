@@ -68,6 +68,12 @@ namespace se1.ADV
             //var carFactory = new Factory<Car>();
             //Car myCar = carFactory.CreateInstance();
             #endregion
+            #region Q10
+            //Printer<Document> Test = new Printer<Document>();
+            //Document doc = new Document();
+            //Test.PrintItem(doc);
+           
+            #endregion
         }
     }
 }
