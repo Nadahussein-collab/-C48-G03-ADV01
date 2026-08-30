@@ -91,10 +91,16 @@ namespace se1.ADV
              * For boolean value types, it returns false.
              * For structs, it returns a struct with all its fields set to their default values.
              */
-            //int defaultInt = default(int);
-            //Console.WriteLine(defaultInt); 
-            //string defaultString = default(string);
-            //Console.WriteLine(defaultString == null);
+            //var numbers = new SafeList<int>();
+            //numbers.Add(10);
+            //numbers.Add(20);
+            //Console.WriteLine(numbers[0]);  
+            //Console.WriteLine(numbers[5]);  
+            //Console.WriteLine(numbers[-1]); 
+            //var names = new SafeList<string>();
+            //names.Add("Alice");
+            //Console.WriteLine(names[0]);                  
+            //Console.WriteLine(names[3] == null ? "Null" : names[3]);
             #endregion
         }
     }
