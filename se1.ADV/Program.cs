@@ -127,6 +127,13 @@ namespace se1.ADV
             //Circle myCircle = new Circle { Name = "My Circle", Radius = 10.0 };
             //circleDrawer.Draw(myCircle);
             #endregion
+            #region Q16
+            /*Covariance preserves the normal inheritance direction. It is used when your generic interface is a producer of data.
+             * Because every Circle is a Shape, it is completely safe to treat a factory that outputs circles as a factory that outputs shapes.
+             * Contravariance reverses the normal inheritance direction. It is used when your generic interface is a consumer of data.
+             * Because a handler built for Shape knows how to process the base properties, it is completely safe to hand it a Circle (which possesses all those base properties and more).
+             */
+            #endregion
         }
     }
 }
