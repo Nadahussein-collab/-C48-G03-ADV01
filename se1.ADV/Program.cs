@@ -84,6 +84,18 @@ namespace se1.ADV
             //Console.WriteLine($"Order ID: {myOrder.ID}");
             //myOrder.Audit();
             #endregion
+            #region Q13
+            /*The default keyword in generics returns the default value of a given type parameter T. It is essential because, at compile time, C# does not know whether T will be a reference type or a value type.
+             * For reference types (e.g., string, class), default(T) returns null.
+             * For numeric value types (e.g., int, double), it returns 0.
+             * For boolean value types, it returns false.
+             * For structs, it returns a struct with all its fields set to their default values.
+             */
+            //int defaultInt = default(int);
+            //Console.WriteLine(defaultInt); 
+            //string defaultString = default(string);
+            //Console.WriteLine(defaultString == null);
+            #endregion
         }
     }
 }
