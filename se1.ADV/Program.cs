@@ -37,6 +37,12 @@
             //Swaping.Test();
 
             #endregion
+            #region Q5
+            //int maxInt = Utility.FindMax(15, 42);
+            //Console.WriteLine(maxInt); 
+            //string maxString = Utility.FindMax("Apple", "Zebra");
+            //Console.WriteLine(maxString); 
+            #endregion
         }
     }
 }
