@@ -134,6 +134,51 @@ namespace se1.ADV
              * Because a handler built for Shape knows how to process the base properties, it is completely safe to hand it a Circle (which possesses all those base properties and more).
              */
             #endregion
+            #region Q17
+            /*ow do static members work in generic types?
+             * When you define a static field in a generic class MyClass<T>, C# generates a 
+             * distinct set of static variables for each unique type parameter T provided at runtime (MyClass<int>, MyClass<string>, etc.)
+             */
+            //Counter<int>.Increment();
+            //Counter<int>.Increment();
+            //Counter<int>.Increment();
+            //Counter<int>.Increment();
+            //Counter<int>.Increment();
+            //Counter<string>.Increment();
+            //Counter<string>.Increment();
+            //Counter<string>.Increment();
+            //Counter<string>.Increment();
+            //Counter<int>.Increment(); 
+            //Counter<int>.Increment(); 
+            //Counter<double>.Increment(); 
+            //Console.WriteLine(Counter<int>.count);
+            //Console.WriteLine(Counter<string>.count);
+            #endregion
+            #region Q18
+
+            #endregion
+            #region Q19
+            //var cache = new Cache<string, string>();
+
+            //cache.Add("user_101", "John Doe", TimeSpan.FromSeconds(2));
+
+            //Console.WriteLine($"Contains key: {cache.Contains("user_101")}");
+
+            //if (cache.TryGet("user_101", out string name))
+            //{
+            //    Console.WriteLine($"Cached Value: {name}");
+
+            //    Console.WriteLine("\nWaiting 3 seconds...");
+            //    Thread.Sleep(3000);
+
+            //    Console.WriteLine($"Contains key after expiry: {cache.Contains("user_101")}");
+
+            //    bool retrieved = cache.TryGet("user_101", out string expiredName);
+            //    Console.WriteLine($"Retrieved after expiry: {retrieved}");
+            //}
+            #endregion
         }
+
     }
 }
+        
