@@ -43,6 +43,19 @@
             //string maxString = Utility.FindMax("Apple", "Zebra");
             //Console.WriteLine(maxString); 
             #endregion
+            #region Q6
+
+            #endregion
+            #region Q7
+            /*The struct constraint (where T : struct) restricts the generic type parameter T to be a non-nullable value type 
+             * (such as int, double, bool, char, or any user-defined struct).
+             * This prevents passing reference types (like string or class) 
+             * or nullable value types (like int?) as type arguments.
+             */
+            //var wrapper = new ValueWrapper<int>(100);
+            //wrapper.PrintData();
+            //var dateWrapper = new ValueWrapper<DateTime>(DateTime.Now);
+            #endregion
         }
     }
 }
