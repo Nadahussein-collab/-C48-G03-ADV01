@@ -115,6 +115,18 @@ namespace se1.ADV
             //Shape myShape = shapeFactory.Create();
             //Console.WriteLine(myShape.Name);
             #endregion
+            #region Q15
+            /*Contravariance is the exact opposite of covariance. It allows you to use a more generic type (Base Class like Shape) where a more specific type (Derived Class like Circle) is expected.
+             * If a method knows how to handle any Shape (e.g., drawing it or inspecting its boundary), it can safely handle a Circle, because every Circle is a Shape. Contravariance lets C# treat IProcessor<Shape> as IProcessor<Circle>.
+             * How the in Keyword Works
+             * You mark a generic type parameter with the in keyword (e.g., <in T>) inside a Generic Interface or Delegate.
+             * Input Only: in tells the compiler that T will only be passed into methods as an argument (consumed), never returned (produced).
+             * Type Safety: Since data only enters the interface, passing a derived object into a base handler is completely safe—the method expects base properties, which the derived object is guaranteed to have.
+             */
+            //IShapeDrawer<Circle> circleDrawer = new ShapeDrawer();
+            //Circle myCircle = new Circle { Name = "My Circle", Radius = 10.0 };
+            //circleDrawer.Draw(myCircle);
+            #endregion
         }
     }
 }
