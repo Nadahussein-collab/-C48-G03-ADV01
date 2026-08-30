@@ -27,6 +27,16 @@
             //var product = new Pair<string, double>("Laptop", 12.430);
             //product.PrintPair();
             #endregion
+            #region Q4
+            /*Generic Method: is a method declared with type parameters (<T>) inside either a generic or a non-generic class.
+             */
+            //int a = 1;
+            //int b = 2;
+            //Swaping.swap<int>(ref a, ref b);
+            //Swaping.swap(ref a, ref b);
+            //Swaping.Test();
+
+            #endregion
         }
     }
 }
