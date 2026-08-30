@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace se1.ADV
 {
-    internal interface IRepository<T>
+    public class Car
     {
-        void Add(T item);
-        void Delete(int id);
-        IEnumerable<T> GetAll();
-        T GetById(int id);
+        public string Model { get; set; }
+        public Car()
+        {
+            Model = "Standard";
+        }
     }
 }
+

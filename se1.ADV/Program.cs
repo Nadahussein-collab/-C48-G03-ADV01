@@ -1,4 +1,6 @@
-﻿namespace se1.ADV
+﻿using System.Net.Http.Headers;
+
+namespace se1.ADV
 {
     internal class Program
     {
@@ -55,6 +57,16 @@
             //var wrapper = new ValueWrapper<int>(100);
             //wrapper.PrintData();
             //var dateWrapper = new ValueWrapper<DateTime>(DateTime.Now);
+            #endregion
+            #region Q8
+            //Inventory<string> I3 = new Inventory<string>("");
+            #endregion
+            #region Q9
+            /*The new() constraint (where T : new()) specifies that a generic type argument T must have a public parameterless constructor (a default constructor).
+             * This allows you to instantiate new objects of type T inside the generic class or method using new T().
+             */
+            //var carFactory = new Factory<Car>();
+            //Car myCar = carFactory.CreateInstance();
             #endregion
         }
     }

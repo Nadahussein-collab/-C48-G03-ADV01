@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace se1.ADV
 {
-    internal interface IRepository<T>
+    public class Factory<T> where T : new()
     {
-        void Add(T item);
-        void Delete(int id);
-        IEnumerable<T> GetAll();
-        T GetById(int id);
+        public T CreateInstance()
+        {
+            return new T();
+        }
     }
 }
