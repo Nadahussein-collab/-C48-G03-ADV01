@@ -19,6 +19,14 @@
             //C2.Add("Hello");
             //Console.WriteLine(C2.Get());
             #endregion
+            #region Q3
+            /*Multiple Type Parameter: A generic class can have more than one type parameter.
+             */
+            //var student = new Pair<int, string>(22, "Ahmed");
+            //student.PrintPair();
+            //var product = new Pair<string, double>("Laptop", 12.430);
+            //product.PrintPair();
+            #endregion
         }
     }
 }
