@@ -70,9 +70,19 @@ namespace se1.ADV
             #endregion
             #region Q10
             //Printer<Document> Test = new Printer<Document>();
-            //Document doc = new Document();
-            //Test.PrintItem(doc);
-           
+            //Test.PrintItem(new Document());
+            #endregion
+            #region Q11
+            //var dogHandler = new PetHandler<Dog>();
+            //var myDog = new Dog { Name = "Rex" };
+            //dogHandler.Handle(myDog);
+            #endregion
+            #region Q12
+            //Repository<Order> orderRepo = new Repository<Order>();
+            //Order myOrder = orderRepo.Create();
+            //myOrder.ID = 101;
+            //Console.WriteLine($"Order ID: {myOrder.ID}");
+            //myOrder.Audit();
             #endregion
         }
     }
