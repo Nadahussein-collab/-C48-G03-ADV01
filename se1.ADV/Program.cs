@@ -11,6 +11,14 @@
              * Using generics : type safety, code reusability, better performance and cleaner code.
              */
             #endregion
+            #region Q2
+            //Container<int> C1 = new Container<int>();
+            //C1.Add(22);
+            //Console.WriteLine(C1.Get());
+            //Container<string> C2 = new Container<string>();
+            //C2.Add("Hello");
+            //Console.WriteLine(C2.Get());
+            #endregion
         }
     }
 }
