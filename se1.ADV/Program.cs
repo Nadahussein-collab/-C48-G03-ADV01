@@ -102,6 +102,19 @@ namespace se1.ADV
             //Console.WriteLine(names[0]);                  
             //Console.WriteLine(names[3] == null ? "Null" : names[3]);
             #endregion
+            #region Q14
+            /*Covariance allows you to use a more derived type (a subtype like Dog)
+             * where a more generic type (a base type like Animal) is expected in generic interfaces or delegates.
+             * Because every Dog is an Animal, covariance lets C# treat an object of type IProducer<Dog> as IProducer<Animal>
+             * How the out Keyword Works
+             * You mark a generic type parameter with the out keyword (e.g., <out T>) inside a Generic Interface or Delegate.
+             * Output Only: out tells the compiler that T will only be returned by methods (produced), never accepted as an input parameter (consumed).
+             * Type Safety: Since data only leaves the interface, casting to a broader type is completely safe—you are guaranteed to receive an object that inherits from the base class.
+             */
+            //IShapeFactory<Shape> shapeFactory = new CircleFactory();
+            //Shape myShape = shapeFactory.Create();
+            //Console.WriteLine(myShape.Name);
+            #endregion
         }
     }
 }
